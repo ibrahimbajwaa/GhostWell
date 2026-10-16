@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+/data/
+__pycache__/
+.venv/
+/web/
+/mkdir/
+*.tsbuildinfo
+site.tgz
+Ghostwell_Beginners_Guide.pdf

@@ -1,0 +1,454 @@
+{
+ "built": "2026-10-16",
+ "totals": {
+  "wells": 88034,
+  "orphans": 18608,
+  "idle_10y": 41199,
+  "median_years": 10.7,
+  "noncompliant": 16106,
+  "overdue": 19440,
+  "sour": 2707,
+  "within_10km": 5649,
+  "forecast": 3008,
+  "high_score": 897,
+  "companies": 810,
+  "owa_sites_all_time": 23415,
+  "oldest_drilled": 1911
+ },
+ "inactive_by_year": [
+  {
+   "year": 1990,
+   "wells": 185
+  },
+  {
+   "year": 1991,
+   "wells": 158
+  },
+  {
+   "year": 1992,
+   "wells": 179
+  },
+  {
+   "year": 1993,
+   "wells": 215
+  },
+  {
+   "year": 1994,
+   "wells": 270
+  },
+  {
+   "year": 1995,
+   "wells": 342
+  },
+  {
+   "year": 1996,
+   "wells": 383
+  },
+  {
+   "year": 1997,
+   "wells": 376
+  },
+  {
+   "year": 1998,
+   "wells": 603
+  },
+  {
+   "year": 1999,
+   "wells": 672
+  },
+  {
+   "year": 2000,
+   "wells": 501
+  },
+  {
+   "year": 2001,
+   "wells": 725
+  },
+  {
+   "year": 2002,
+   "wells": 946
+  },
+  {
+   "year": 2003,
+   "wells": 926
+  },
+  {
+   "year": 2004,
+   "wells": 999
+  },
+  {
+   "year": 2005,
+   "wells": 1139
+  },
+  {
+   "year": 2006,
+   "wells": 1156
+  },
+  {
+   "year": 2007,
+   "wells": 1632
+  },
+  {
+   "year": 2008,
+   "wells": 1805
+  },
+  {
+   "year": 2009,
+   "wells": 2407
+  },
+  {
+   "year": 2010,
+   "wells": 2409
+  },
+  {
+   "year": 2011,
+   "wells": 2256
+  },
+  {
+   "year": 2012,
+   "wells": 2989
+  },
+  {
+   "year": 2013,
+   "wells": 3351
+  },
+  {
+   "year": 2014,
+   "wells": 3279
+  },
+  {
+   "year": 2015,
+   "wells": 3447
+  },
+  {
+   "year": 2016,
+   "wells": 4150
+  },
+  {
+   "year": 2017,
+   "wells": 3547
+  },
+  {
+   "year": 2018,
+   "wells": 3285
+  },
+  {
+   "year": 2019,
+   "wells": 4791
+  },
+  {
+   "year": 2020,
+   "wells": 3861
+  },
+  {
+   "year": 2021,
+   "wells": 3263
+  },
+  {
+   "year": 2022,
+   "wells": 2330
+  },
+  {
+   "year": 2023,
+   "wells": 2535
+  },
+  {
+   "year": 2024,
+   "wells": 4548
+  },
+  {
+   "year": 2025,
+   "wells": 5531
+  },
+  {
+   "year": 2026,
+   "wells": 3722
+  }
+ ],
+ "idle_hist": [
+  {
+   "bucket": "<2",
+   "wells": 5743
+  },
+  {
+   "bucket": "2\u20135",
+   "wells": 12213
+  },
+  {
+   "bucket": "5\u201310",
+   "wells": 17806
+  },
+  {
+   "bucket": "10\u201315",
+   "wells": 17836
+  },
+  {
+   "bucket": "15\u201320",
+   "wells": 11225
+  },
+  {
+   "bucket": "20\u201330",
+   "wells": 8388
+  },
+  {
+   "bucket": "30\u201340",
+   "wells": 2174
+  },
+  {
+   "bucket": "40+",
+   "wells": 1576
+  }
+ ],
+ "regions": [
+  {
+   "region": "Bonnyville",
+   "wells": 19518,
+   "orphans": 1064,
+   "noncompliant": 2704
+  },
+  {
+   "region": "St. Albert",
+   "wells": 11225,
+   "orphans": 1477,
+   "noncompliant": 3014
+  },
+  {
+   "region": "Grande Prairie",
+   "wells": 8853,
+   "orphans": 739,
+   "noncompliant": 1228
+  },
+  {
+   "region": "Wainwright",
+   "wells": 8572,
+   "orphans": 957,
+   "noncompliant": 2737
+  },
+  {
+   "region": "Drayton Valley",
+   "wells": 7655,
+   "orphans": 181,
+   "noncompliant": 1140
+  },
+  {
+   "region": "Red Deer",
+   "wells": 6954,
+   "orphans": 513,
+   "noncompliant": 1526
+  },
+  {
+   "region": "Medicine Hat",
+   "wells": 6523,
+   "orphans": 392,
+   "noncompliant": 1311
+  },
+  {
+   "region": "Midnapore",
+   "wells": 4444,
+   "orphans": 471,
+   "noncompliant": 1080
+  },
+  {
+   "region": "High Level",
+   "wells": 3303,
+   "orphans": 1827,
+   "noncompliant": 1366
+  }
+ ],
+ "risk_classes": {
+  "Medium": 40277,
+  "Low": 27847,
+  "Not Reported": 8815,
+  "High": 108
+ },
+ "nc_reasons": [
+  {
+   "reason": "Inspection is overdue",
+   "wells": 8373
+  },
+  {
+   "reason": "Downhole operation not reported on Medium or High Risk Well",
+   "wells": 5971
+  },
+  {
+   "reason": "Inactive greater than 10 years",
+   "wells": 5866
+  },
+  {
+   "reason": "Suspension not reported for current inactive period",
+   "wells": 5350
+  },
+  {
+   "reason": "Inactive Well reported as reactivated",
+   "wells": 1051
+  },
+  {
+   "reason": "Failure Repair Completed Date not submitted",
+   "wells": 51
+  }
+ ],
+ "owa_stages": [
+  {
+   "stage": "Intake",
+   "wells": 5757
+  },
+  {
+   "stage": "Decommissioning",
+   "wells": 4052
+  },
+  {
+   "stage": "Reclamation",
+   "wells": 8730
+  },
+  {
+   "stage": "Closed",
+   "wells": 4876
+  }
+ ],
+ "forecast_by_month": [
+  {
+   "month": "2026-09",
+   "wells": 582
+  },
+  {
+   "month": "2026-10",
+   "wells": 536
+  },
+  {
+   "month": "2026-11",
+   "wells": 409
+  },
+  {
+   "month": "2026-12",
+   "wells": 442
+  },
+  {
+   "month": "2027-01",
+   "wells": 443
+  },
+  {
+   "month": "2027-02",
+   "wells": 596
+  }
+ ],
+ "defunct": [
+  {
+   "name": "Long Run Exploration Ltd",
+   "wells": 4027,
+   "open": 4027
+  },
+  {
+   "name": "Sequoia Resources Corp",
+   "wells": 2777,
+   "open": 2662
+  },
+  {
+   "name": "Sanling Energy Ltd",
+   "wells": 1549,
+   "open": 1432
+  },
+  {
+   "name": "Lexin Resources Ltd",
+   "wells": 1381,
+   "open": 612
+  },
+  {
+   "name": "Trident Exploration (Alberta) Corp",
+   "wells": 1134,
+   "open": 946
+  },
+  {
+   "name": "Houston Oil & Gas Ltd",
+   "wells": 1028,
+   "open": 783
+  },
+  {
+   "name": "Questfire Energy Corp",
+   "wells": 769,
+   "open": 656
+  },
+  {
+   "name": "Tallahassee Exploration Inc",
+   "wells": 656,
+   "open": 656
+  },
+  {
+   "name": "Manitok Energy Inc",
+   "wells": 609,
+   "open": 482
+  },
+  {
+   "name": "Canadian Oil & Gas International Inc",
+   "wells": 588,
+   "open": 464
+  },
+  {
+   "name": "Lgx Oil + Gas Inc",
+   "wells": 351,
+   "open": 313
+  },
+  {
+   "name": "Area 2 Energy Ltd",
+   "wells": 349,
+   "open": 335
+  },
+  {
+   "name": "Sydco Energy Inc",
+   "wells": 326,
+   "open": 246
+  },
+  {
+   "name": "Canadian Coyote Energy Ltd",
+   "wells": 308,
+   "open": 214
+  },
+  {
+   "name": "Bow River Energy Ltd",
+   "wells": 285,
+   "open": 233
+  }
+ ],
+ "watch_weights": {
+  "nc_rate": 0.35,
+  "overdue_rate": 0.25,
+  "idle10_rate": 0.25,
+  "median_idle": 0.15
+ },
+ "experiment": {
+  "n_wells": 77047,
+  "n_orphans": 7621,
+  "n_companies": 810,
+  "auc_random": 0.951,
+  "auc_grouped": 0.705,
+  "importance": [
+   {
+    "feature": "Longitude",
+    "importance": 0.1188
+   },
+   {
+    "feature": "Latitude",
+    "importance": 0.1089
+   },
+   {
+    "feature": "Well type",
+    "importance": 0.0896
+   },
+   {
+    "feature": "Region",
+    "importance": 0.0407
+   },
+   {
+    "feature": "AER risk class",
+    "importance": 0.0361
+   },
+   {
+    "feature": "Drill year",
+    "importance": 0.0177
+   },
+   {
+    "feature": "Type 6 (medium-risk)",
+    "importance": 0.0012
+   }
+  ]
+ }
+}
